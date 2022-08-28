@@ -1,0 +1,182 @@
+!
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập JS buổi 2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- bài 1: Tính tiền lương  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Luong NV</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Số ngày làm</label>
+                            <input id="soNgayLam" type="text" class="form-control" />
+                        </div>
+                        <button id="btnTinhLuong" class="btn btn-success">
+                            Tính lương
+                        </button>
+                    </div>
+                    <div id="showInfoLuongNV" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <!-- bài 2: Tính giá trị trung bình -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Tính giá trị trung bình</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập số thứ nhất</label>
+                            <input id="num1" type="number" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ nhất</label>
+                            <input id="num2" type="number" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ nhất</label>
+                            <input id="num3" type="number" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ nhất</label>
+                            <input id="num4" type="number" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập số thứ nhất</label>
+                            <input id="num5" type="number" class="form-control" />
+                        </div>
+                        <button id="btnTrungbinh" class="btn btn-success">
+                            Giá trị trung bình
+                        </button>
+                    </div>
+                    <div id="showInfoTrungbinh" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br><br><br>
+<!-- bài 3: Quy đổi tiền  -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Quy đổi USD sang VND</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Nhập USD</label>
+                        <input id="USD" type="number" class="form-control" />
+                    </div>
+                    <button id="btnQuydoi" class="btn btn-success">
+                        Quy đổi
+                    </button>
+                </div>
+                <div id="showInfoQuydoi" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+<!-- bài 4: tính diện va chu vi hình chữ nhật -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Tính diện tích và chu vi hình chữ nhật</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Nhập chiều dài</label>
+                        <input id="cd" type="number" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Nhập chiều rộng</label>
+                        <input id="cr" type="number" class="form-control" />
+                    </div>
+                    <button id="btnKetquahcn" class="btn btn-success">
+                        Kết quả
+                    </button>
+                </div>
+                <div id="showInfohdn" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+<!-- bài 5: Tính tổng hai kí số -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Tổng hai kí số</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Number</label>
+                        <input id="number" type="text" class="form-control" />
+                    </div>
+                    <button id="btnTongkiso" class="btn btn-success">
+                        Tổng
+                    </button>
+                </div>
+                <div id="showInfoTongkiso" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+
+        </script>
+    <script src="./bai1.js"></script>
+    <script src="./bai2.js"></script>
+    <script src="./bai3.js"></script>
+    <script src="./bai4.js"></script>
+    <script src="./bai5.js"></script>
+
+</body>
+
+</html>
